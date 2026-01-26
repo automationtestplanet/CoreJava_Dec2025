@@ -33,6 +33,8 @@ public class InterviewQuestions {
 		
 	}
 
+	// write reusable program to swap two string without using third variable
+
 	public static void main(String[] args) {
 		swapVariablesWithoutThirdVariable(100,200);
 	}
