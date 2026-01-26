@@ -16,9 +16,25 @@ public class InterviewQuestions {
 		System.out.println("B : " + b);
 		
 	}
+	
+	// write reusable program to swap two variables without using third variable
+	public static void swapVariablesWithoutThirdVariable(int a, int b) {
+		System.out.println("A : " + a);
+		System.out.println("B : " + b);
+		
+		
+		a = a+b;  // a = 100+200;
+		b = a-b; // b = 300-200  = 100
+		a = a-b; // a = 300 - 100 = 200
+		
+		System.out.println("---------------------------------");
+		System.out.println("A : " + a);
+		System.out.println("B : " + b);
+		
+	}
 
 	public static void main(String[] args) {
-		swapVariables(100,200);
+		swapVariablesWithoutThirdVariable(100,200);
 	}
 
 }
