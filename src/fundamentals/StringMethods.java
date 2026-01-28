@@ -93,8 +93,6 @@ public class StringMethods {
 		System.out.println(str9.replaceAll("[a-zA-Z0-9]", ""));
 		
 		
-		
-
 	}
 
 }
