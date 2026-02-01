@@ -8,6 +8,7 @@ public class Assignment1 {
 			System.out.print(arr[i] + " ");
 		}
 	}
+	
 	public static void SortArray(int[] arr) {
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = i + 1; j < arr.length; j++) {
