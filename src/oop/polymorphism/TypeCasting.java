@@ -1,6 +1,6 @@
 package oop.polymorphism;
 
-public class TypeConversion {
+public class TypeCasting {
 
 	public static void main(String[] args) {
 		NewCalculator newalc = new NewCalculator();
