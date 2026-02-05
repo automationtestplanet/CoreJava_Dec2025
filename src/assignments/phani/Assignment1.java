@@ -8,7 +8,7 @@ public class Assignment1 {
 
 
 		public static void main(String[] args) {
-			System.out.println("armstrong numbers between 100 and 1000");
+			System.out.println("armstrong numbers between 100 and 1000 are:");
 		
 		for (int i =100;i<1000;i++)
 		{
@@ -22,6 +22,7 @@ public class Assignment1 {
 			}
 			if(i==sum)
 				System.out.println(i);
+				
 		}
 		
 		
