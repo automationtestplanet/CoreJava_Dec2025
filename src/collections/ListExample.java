@@ -28,6 +28,7 @@ public class ListExample {
 		System.out.println(arrayList1);
 		System.out.println(arrayList1.size());
 		
+//		boolean bool1 = (boolean)arrayList1.get(2);
 		System.out.println(arrayList1.get(2));
 		System.out.println(arrayList1.contains(100));
 		System.out.println(arrayList1.indexOf(100));
