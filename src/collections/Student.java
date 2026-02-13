@@ -13,6 +13,23 @@ public class Student {
 		this.sRollNo = sRollNo;
 		Student.sQualification = sQualification;
 		Student.collegeName = collegeName;
+	}	
+
+	public String getsName() {
+		return sName;
+	}
+
+
+	public int getsRollNo() {
+		return sRollNo;
+	}
+
+	public static String getsQualification() {
+		return sQualification;
+	}
+
+	public static String getCollegeName() {
+		return collegeName;
 	}
 
 	public void displayStudentDetails() {

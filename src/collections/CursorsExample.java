@@ -27,7 +27,6 @@ public class CursorsExample {
 			System.out.println(itr1.next());
 		}
 		
-
 		Set<Character> charsSet = new HashSet<Character>();
 		charsSet.add('A');
 		charsSet.add('a');

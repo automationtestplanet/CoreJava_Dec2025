@@ -47,6 +47,9 @@ public class GenericClasses {
 
 //		fruitsMap.put(100, "DragonFruit");
 //		fruitsMap.put("DragonFruit", "100");
+		
+//		EntrySet  -> {key=value, key=value, key=value}
+		
 
 		List<Student> studentsList = new ArrayList<Student>();
 		studentsList.add(new Student("RAM", 101, "BTech", "MLR College"));
