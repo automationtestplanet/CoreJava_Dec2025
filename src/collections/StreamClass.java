@@ -49,8 +49,7 @@ public class StreamClass {
 
 		System.out.println("--------------------Stream Map-------------");
 		charsSet.stream().map(eachVal -> eachVal * 10).forEach(System.out::println);
-		
-		
+
 		List<Integer> list2 = new ArrayList<>();
 		list2.add(14);
 		list2.add(13);
@@ -59,38 +58,38 @@ public class StreamClass {
 		list2.add(12);
 		System.out.println("--------------------Before Sortingr-------------");
 		System.out.println(list2);
-		
+
 		System.out.println("--------------------After Sorting in a ascending order-------------");
 		Collections.sort(list2);
 		System.out.println(list2);
-		
+
 		System.out.println("--------------------After Sorting in a descending order-------------");
 		Collections.sort(list2, Collections.reverseOrder());
 		System.out.println(list2);
-		
 
 		Map<String, Integer> fruitsMap = new HashMap<String, Integer>();
 		fruitsMap.put("Apples", 50);
 		fruitsMap.put("Banana", 100);
 		fruitsMap.put("Cherry", 20);
-		
-		System.out.println("--------------------Print Map Data using consumer-------------");
-		fruitsMap.forEach((key,val)-> System.out.println(key+" "+ val));
 
+		System.out.println("--------------------Print Map Data using consumer-------------");
+		fruitsMap.forEach((key, val) -> System.out.println(key + " " + val));
 
 		List<Student> studentsList = new ArrayList<Student>();
 		studentsList.add(new Student("RAM", 102, "BTech", "MLR College"));
 		studentsList.add(new Student("VENKAT", 101, "BTech", "MLR College"));
 		studentsList.add(new Student("KRISH", 103, "BTech", "MLR College"));
-		
+
 		System.out.println("--------------------Print Student map Data using consumer-------------");
-		studentsList.forEach(eachStd -> System.out.println(eachStd.getsName()+ " "+ eachStd.getsRollNo()+" "+ eachStd.getsQualification()+" "+ eachStd.getCollegeName()));
+		studentsList.forEach(eachStd -> System.out.println(eachStd.getsName() + " " + eachStd.getsRollNo() + " "
+				+ eachStd.getsQualification() + " " + eachStd.getCollegeName()));
 //		Collections.sort(studentsList);
-		
-		Collections.sort(studentsList, (std1,std2)-> Integer.compare(std1.getsRollNo(), std2.getsRollNo()));
+
+		Collections.sort(studentsList, (std1, std2) -> Integer.compare(std1.getsRollNo(), std2.getsRollNo()));
 		System.out.println("--------------------Print Student map Data using consumer after sorting-------------");
-		studentsList.forEach(eachStd -> System.out.println(eachStd.getsName()+ " "+ eachStd.getsRollNo()+" "+ eachStd.getsQualification()+" "+ eachStd.getCollegeName()));
-		
+		studentsList.forEach(eachStd -> System.out.println(eachStd.getsName() + " " + eachStd.getsRollNo() + " "
+				+ eachStd.getsQualification() + " " + eachStd.getCollegeName()));
+
 	}
 
 }
